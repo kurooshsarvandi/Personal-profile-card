@@ -1,0 +1,117 @@
+/*تنظیمات کلی صفحه8*/
+/* استایل‌های پایه */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #66eac2 0%, #4ba0a2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    direction: rtl;
+}
+
+/* کارت پروفایل */
+.profile-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    width: 320px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* افکت hover برای کارت */
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* عکس پروفایل */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid #4CAF50;
+    transition: all 0.3s ease;
+}
+
+/* افکت hover برای عکس */
+.profile-img:hover {
+    transform: scale(1.1);
+    border-color: #2196F3;
+}
+
+/* اطلاعات پروفایل */
+.profile-info {
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    color: #333;
+    margin: 10px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.profile-job {
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.profile-bio {
+    color: #666;
+    line-height: 1.6;
+    margin: 15px 0;
+    font-size: 0.9em;
+}
+
+/* بخش دکمه‌ها */
+.profile-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* استایل کلی دکمه‌ها */
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    flex: 1;
+    max-width: 120px;
+}
+
+/* دکمه دنبال کردن */
+.follow-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.follow-btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+/* دکمه پیام */
+.message-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.message-btn:hover {
+    background-color: #1976D2;
+    transform: translateY(-2px);
+}
